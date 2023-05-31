@@ -30,16 +30,19 @@ public class SysPost implements Serializable {
     /**
      * 岗位编码
      */
+    @TableField("post_code")
     private String postCode;
 
     /**
      * 岗位名称
      */
+    @TableField("post_name")
     private String postName;
 
     /**
      * 显示顺序
      */
+//    @TableField("post_sort")
     private Integer postSort;
 
     /**

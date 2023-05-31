@@ -28,7 +28,7 @@ public class SysPostController {
      * @return
      */
     @PostMapping("/save")
-    public boolean save(@RequestBody SysPost sysPost){
+    public boolean save(SysPost sysPost){
         return sysPostService.save(sysPost);
     }
 

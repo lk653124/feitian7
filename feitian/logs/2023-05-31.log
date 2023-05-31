@@ -1416,3 +1416,387 @@ java.lang.IllegalArgumentException: The HTTP header line [{: ] does not conform 
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
+[INFO]2023-05-31 20:21:26,930 - Starting FeitianWebApplication using Java 1.8.0_281 on M with PID 21612 (D:\feitian\feitian\feitian-web\target\classes started by M in D:\feitian\feitian)
+[INFO]2023-05-31 20:21:26,931 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2023-05-31 20:21:26,985 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2023-05-31 20:21:26,985 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2023-05-31 20:21:27,529 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2023-05-31 20:21:27,530 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2023-05-31 20:21:27,547 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2023-05-31 20:21:28,594 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2023-05-31 20:21:28,597 - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+[INFO]2023-05-31 20:21:28,597 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2023-05-31 20:21:28,597 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2023-05-31 20:21:28,603 - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+[INFO]2023-05-31 20:21:28,620 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 20:21:28,621 - Starting service [Tomcat]
+[INFO]2023-05-31 20:21:28,622 - Starting Servlet engine: [Apache Tomcat/9.0.74]
+[INFO]2023-05-31 20:21:28,988 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO]2023-05-31 20:21:28,993 - Initializing Spring embedded WebApplicationContext
+[INFO]2023-05-31 20:21:28,993 - Root WebApplicationContext: initialization completed in 2008 ms
+[WARN]2023-05-31 20:21:30,603 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2023-05-31 20:21:30,814 - LiveReload server is running on port 35729
+[INFO]2023-05-31 20:21:30,860 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 20:21:30,907 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2023-05-31 20:21:30,953 - Started FeitianWebApplication in 4.827 seconds (JVM running for 6.573)
+[INFO]2023-05-31 20:21:35,096 - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: The HTTP header line [{: ] does not conform to RFC 7230 and has been ignored.
+	at org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:1070)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:900)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:591)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:285)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO]2023-05-31 21:55:12,256 - Starting FeitianWebApplication using Java 1.8.0_281 on M with PID 23932 (D:\feitian\feitian\feitian-web\target\classes started by M in D:\feitian\feitian)
+[INFO]2023-05-31 21:55:12,257 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2023-05-31 21:55:12,335 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2023-05-31 21:55:12,335 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2023-05-31 21:55:13,293 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2023-05-31 21:55:13,296 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2023-05-31 21:55:13,316 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2023-05-31 21:55:14,014 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2023-05-31 21:55:14,015 - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+[INFO]2023-05-31 21:55:14,015 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2023-05-31 21:55:14,015 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2023-05-31 21:55:14,018 - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+[INFO]2023-05-31 21:55:14,024 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 21:55:14,024 - Starting service [Tomcat]
+[INFO]2023-05-31 21:55:14,024 - Starting Servlet engine: [Apache Tomcat/9.0.74]
+[INFO]2023-05-31 21:55:14,240 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO]2023-05-31 21:55:14,245 - Initializing Spring embedded WebApplicationContext
+[INFO]2023-05-31 21:55:14,246 - Root WebApplicationContext: initialization completed in 1910 ms
+[WARN]2023-05-31 21:55:15,709 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[WARN]2023-05-31 21:55:15,916 - Unable to start LiveReload server
+[INFO]2023-05-31 21:55:15,942 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 21:55:15,972 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2023-05-31 21:55:16,006 - Started FeitianWebApplication in 4.191 seconds (JVM running for 5.04)
+[INFO]2023-05-31 21:56:56,753 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2023-05-31 21:56:56,753 - Initializing Servlet 'dispatcherServlet'
+[INFO]2023-05-31 21:56:56,755 - Completed initialization in 2 ms
+[INFO]2023-05-31 21:56:56,821 - HikariPool-1 - Starting...
+[INFO]2023-05-31 21:56:57,417 - HikariPool-1 - Start completed.
+[WARN]2023-05-31 21:57:49,641 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+[WARN]2023-05-31 21:58:16,264 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+[WARN]2023-05-31 21:59:39,317 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('p' (code 112)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('p' (code 112)): was expecting double-quote to start field name<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 2]]
+[WARN]2023-05-31 22:01:22,919 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[WARN]2023-05-31 22:01:32,273 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[WARN]2023-05-31 22:02:10,975 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[WARN]2023-05-31 22:02:16,937 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[WARN]2023-05-31 22:02:37,788 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------314077313878931732007274;charset=UTF-8' not supported]
+[WARN]2023-05-31 22:02:45,069 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+[WARN]2023-05-31 22:03:59,980 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+[WARN]2023-05-31 22:04:56,513 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[INFO]2023-05-31 22:06:55,740 - HikariPool-1 - Shutdown initiated...
+[INFO]2023-05-31 22:06:55,757 - HikariPool-1 - Shutdown completed.
+[INFO]2023-05-31 22:07:01,442 - Starting FeitianWebApplication using Java 1.8.0_281 on M with PID 10640 (D:\feitian\feitian\feitian-web\target\classes started by M in D:\feitian\feitian)
+[INFO]2023-05-31 22:07:01,443 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2023-05-31 22:07:01,495 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2023-05-31 22:07:01,495 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2023-05-31 22:07:02,234 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2023-05-31 22:07:02,235 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2023-05-31 22:07:02,251 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2023-05-31 22:07:03,184 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2023-05-31 22:07:03,185 - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+[INFO]2023-05-31 22:07:03,185 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2023-05-31 22:07:03,185 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2023-05-31 22:07:03,187 - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+[INFO]2023-05-31 22:07:03,197 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 22:07:03,198 - Starting service [Tomcat]
+[INFO]2023-05-31 22:07:03,198 - Starting Servlet engine: [Apache Tomcat/9.0.74]
+[INFO]2023-05-31 22:07:03,476 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO]2023-05-31 22:07:03,484 - Initializing Spring embedded WebApplicationContext
+[INFO]2023-05-31 22:07:03,485 - Root WebApplicationContext: initialization completed in 1989 ms
+[WARN]2023-05-31 22:07:05,145 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[WARN]2023-05-31 22:07:05,324 - Unable to start LiveReload server
+[INFO]2023-05-31 22:07:05,342 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 22:07:05,372 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2023-05-31 22:07:05,395 - Started FeitianWebApplication in 4.394 seconds (JVM running for 5.358)
+[INFO]2023-05-31 22:07:13,821 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2023-05-31 22:07:13,821 - Initializing Servlet 'dispatcherServlet'
+[INFO]2023-05-31 22:07:13,824 - Completed initialization in 3 ms
+[INFO]2023-05-31 22:07:14,082 - HikariPool-1 - Starting...
+[INFO]2023-05-31 22:07:14,833 - HikariPool-1 - Start completed.
+[ERROR]2023-05-31 22:07:14,997 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'postCode' in 'field list'
+### The error may exist in cn/bdqn/feitian/dao/SysPostMapper.java (best guess)
+### The error may involve cn.bdqn.feitian.dao.SysPostMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_post  ( postCode, postName, postSort )  VALUES  ( ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'postCode' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'postCode' in 'field list'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown column 'postCode' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy93.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy91.update(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:56)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.update(MybatisCachingExecutor.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:82)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy76.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:60)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy77.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:61)
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at cn.bdqn.feitian.service.impl.SysPostServiceImpl$$EnhancerBySpringCGLIB$$7e851665.save(<generated>)
+	at cn.bdqn.feitian.web.controller.SysPostController.save(SysPostController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO]2023-05-31 22:13:05,903 - HikariPool-1 - Shutdown initiated...
+[INFO]2023-05-31 22:13:05,914 - HikariPool-1 - Shutdown completed.
+[INFO]2023-05-31 22:13:11,425 - Starting FeitianWebApplication using Java 1.8.0_281 on M with PID 17508 (D:\feitian\feitian\feitian-web\target\classes started by M in D:\feitian\feitian)
+[INFO]2023-05-31 22:13:11,426 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2023-05-31 22:13:11,492 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2023-05-31 22:13:11,493 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2023-05-31 22:13:12,369 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2023-05-31 22:13:12,372 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2023-05-31 22:13:12,400 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2023-05-31 22:13:12,997 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2023-05-31 22:13:12,999 - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+[INFO]2023-05-31 22:13:12,999 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2023-05-31 22:13:12,999 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2023-05-31 22:13:13,004 - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+[INFO]2023-05-31 22:13:13,015 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 22:13:13,016 - Starting service [Tomcat]
+[INFO]2023-05-31 22:13:13,016 - Starting Servlet engine: [Apache Tomcat/9.0.74]
+[INFO]2023-05-31 22:13:13,295 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO]2023-05-31 22:13:13,300 - Initializing Spring embedded WebApplicationContext
+[INFO]2023-05-31 22:13:13,301 - Root WebApplicationContext: initialization completed in 1807 ms
+[WARN]2023-05-31 22:13:14,752 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[WARN]2023-05-31 22:13:14,925 - Unable to start LiveReload server
+[INFO]2023-05-31 22:13:14,942 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 22:13:14,959 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2023-05-31 22:13:14,975 - Started FeitianWebApplication in 4.084 seconds (JVM running for 5.013)
+[INFO]2023-05-31 22:13:18,849 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2023-05-31 22:13:18,850 - Initializing Servlet 'dispatcherServlet'
+[INFO]2023-05-31 22:13:18,852 - Completed initialization in 2 ms
+[INFO]2023-05-31 22:13:19,049 - HikariPool-1 - Starting...
+[INFO]2023-05-31 22:13:19,746 - HikariPool-1 - Start completed.
+[ERROR]2023-05-31 22:13:19,859 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'status' doesn't have a default value
+### The error may exist in cn/bdqn/feitian/dao/SysPostMapper.java (best guess)
+### The error may involve cn.bdqn.feitian.dao.SysPostMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_post  ( post_code, post_name, post_sort )  VALUES  ( ?, ?, ? )
+### Cause: java.sql.SQLException: Field 'status' doesn't have a default value
+; Field 'status' doesn't have a default value; nested exception is java.sql.SQLException: Field 'status' doesn't have a default value] with root cause
+java.sql.SQLException: Field 'status' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy93.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy91.update(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:56)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.update(MybatisCachingExecutor.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:82)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy76.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:60)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy77.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:61)
+	at com.baomidou.mybatisplus.extension.service.IService$$FastClassBySpringCGLIB$$f8525d18.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at cn.bdqn.feitian.service.impl.SysPostServiceImpl$$EnhancerBySpringCGLIB$$87aca13b.save(<generated>)
+	at cn.bdqn.feitian.web.controller.SysPostController.save(SysPostController.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO]2023-05-31 22:15:30,872 - HikariPool-1 - Shutdown initiated...
+[INFO]2023-05-31 22:15:30,880 - HikariPool-1 - Shutdown completed.
+[INFO]2023-05-31 22:15:33,951 - Starting FeitianWebApplication using Java 1.8.0_281 on M with PID 17248 (D:\feitian\feitian\feitian-web\target\classes started by M in D:\feitian\feitian)
+[INFO]2023-05-31 22:15:33,952 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2023-05-31 22:15:34,022 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2023-05-31 22:15:34,022 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2023-05-31 22:15:34,667 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2023-05-31 22:15:34,670 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2023-05-31 22:15:34,699 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+[INFO]2023-05-31 22:15:35,293 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2023-05-31 22:15:35,294 - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+[INFO]2023-05-31 22:15:35,294 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2023-05-31 22:15:35,294 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2023-05-31 22:15:35,298 - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+[INFO]2023-05-31 22:15:35,305 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 22:15:35,306 - Starting service [Tomcat]
+[INFO]2023-05-31 22:15:35,306 - Starting Servlet engine: [Apache Tomcat/9.0.74]
+[INFO]2023-05-31 22:15:35,492 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO]2023-05-31 22:15:35,498 - Initializing Spring embedded WebApplicationContext
+[INFO]2023-05-31 22:15:35,498 - Root WebApplicationContext: initialization completed in 1476 ms
+[WARN]2023-05-31 22:15:36,818 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[WARN]2023-05-31 22:15:36,961 - Unable to start LiveReload server
+[INFO]2023-05-31 22:15:36,992 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 22:15:37,019 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2023-05-31 22:15:37,046 - Started FeitianWebApplication in 3.609 seconds (JVM running for 4.395)

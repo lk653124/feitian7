@@ -40,7 +40,7 @@ mybatis-plus:
       db-type: MYSQL
   configuration:
     # ??????? ???????
-    map-underscore-to-camel-case: false
+    map-underscore-to-camel-case: true
     # ???setter?????
     call-setters-on-nulls: true
     # sql??
