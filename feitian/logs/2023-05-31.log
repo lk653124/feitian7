@@ -1800,3 +1800,33 @@ java.sql.SQLException: Field 'status' doesn't have a default value
 [INFO]2023-05-31 22:15:36,992 - Starting ProtocolHandler ["http-nio-8080"]
 [INFO]2023-05-31 22:15:37,019 - Tomcat started on port(s): 8080 (http) with context path ''
 [INFO]2023-05-31 22:15:37,046 - Started FeitianWebApplication in 3.609 seconds (JVM running for 4.395)
+[INFO]2023-05-31 22:16:08,635 - Starting FeitianWebApplication using Java 1.8.0_281 on M with PID 20096 (D:\feitian\feitian\feitian-web\target\classes started by M in D:\feitian\feitian)
+[INFO]2023-05-31 22:16:08,636 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2023-05-31 22:16:08,682 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2023-05-31 22:16:08,683 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2023-05-31 22:16:09,372 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2023-05-31 22:16:09,374 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2023-05-31 22:16:09,392 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2023-05-31 22:16:10,054 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2023-05-31 22:16:10,055 - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+[INFO]2023-05-31 22:16:10,055 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2023-05-31 22:16:10,055 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2023-05-31 22:16:10,059 - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+[INFO]2023-05-31 22:16:10,070 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 22:16:10,070 - Starting service [Tomcat]
+[INFO]2023-05-31 22:16:10,070 - Starting Servlet engine: [Apache Tomcat/9.0.74]
+[INFO]2023-05-31 22:16:10,246 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO]2023-05-31 22:16:10,249 - Initializing Spring embedded WebApplicationContext
+[INFO]2023-05-31 22:16:10,249 - Root WebApplicationContext: initialization completed in 1566 ms
+[WARN]2023-05-31 22:16:11,684 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[WARN]2023-05-31 22:16:11,821 - Unable to start LiveReload server
+[INFO]2023-05-31 22:16:11,843 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 22:16:11,868 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2023-05-31 22:16:11,883 - Started FeitianWebApplication in 3.808 seconds (JVM running for 4.677)
+[INFO]2023-05-31 22:16:29,585 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2023-05-31 22:16:29,585 - Initializing Servlet 'dispatcherServlet'
+[INFO]2023-05-31 22:16:29,589 - Completed initialization in 4 ms
+[INFO]2023-05-31 22:16:29,719 - HikariPool-1 - Starting...
+[INFO]2023-05-31 22:16:30,341 - HikariPool-1 - Start completed.
+[INFO]2023-05-31 23:03:12,976 - HikariPool-1 - Shutdown initiated...
+[INFO]2023-05-31 23:03:12,990 - HikariPool-1 - Shutdown completed.
