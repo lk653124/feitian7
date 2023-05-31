@@ -1378,3 +1378,41 @@ java.lang.IllegalArgumentException: The HTTP header line [{: ] does not conform 
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
+[INFO]2023-05-31 20:20:30,776 - Starting FeitianWebApplication using Java 1.8.0_281 on M with PID 9836 (D:\feitian\feitian\feitian-web\target\classes started by M in D:\feitian\feitian)
+[INFO]2023-05-31 20:20:30,779 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2023-05-31 20:20:30,981 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2023-05-31 20:20:30,982 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2023-05-31 20:20:31,937 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2023-05-31 20:20:31,940 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2023-05-31 20:20:31,969 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2023-05-31 20:20:32,987 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2023-05-31 20:20:32,989 - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+[INFO]2023-05-31 20:20:32,989 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2023-05-31 20:20:32,989 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2023-05-31 20:20:33,009 - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+[INFO]2023-05-31 20:20:33,024 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 20:20:33,025 - Starting service [Tomcat]
+[INFO]2023-05-31 20:20:33,025 - Starting Servlet engine: [Apache Tomcat/9.0.74]
+[INFO]2023-05-31 20:20:33,554 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO]2023-05-31 20:20:33,561 - Initializing Spring embedded WebApplicationContext
+[INFO]2023-05-31 20:20:33,562 - Root WebApplicationContext: initialization completed in 2578 ms
+[WARN]2023-05-31 20:20:35,540 - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[INFO]2023-05-31 20:20:35,896 - LiveReload server is running on port 35729
+[INFO]2023-05-31 20:20:35,931 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2023-05-31 20:20:35,961 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2023-05-31 20:20:36,004 - Started FeitianWebApplication in 6.237 seconds (JVM running for 7.53)
+[INFO]2023-05-31 20:20:38,732 - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: The HTTP header line [{: ] does not conform to RFC 7230 and has been ignored.
+	at org.apache.coyote.http11.Http11InputBuffer.skipLine(Http11InputBuffer.java:1070)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:900)
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:591)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:285)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)

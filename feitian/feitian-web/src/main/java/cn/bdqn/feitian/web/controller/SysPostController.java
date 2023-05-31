@@ -31,4 +31,22 @@ public class SysPostController {
     public boolean save(@RequestBody SysPost sysPost){
         return sysPostService.save(sysPost);
     }
+
+    /**
+     * 修改岗位信息
+     */
+    @PostMapping("/update")
+    public boolean updateById(@RequestBody SysPost sysPost){
+        return sysPostService.updateById(sysPost);
+    }
+
+    /**
+     * 删除岗位信息
+     * @param postId
+     * @return
+     */
+    @DeleteMapping("/removeById")
+    public boolean removeById(@PathVariable("postId") Integer postId){
+        return sysPostService.removeById(postId);
+    }
 }
