@@ -23,4 +23,12 @@ public class SysPostController {
         return sysPostService.getAll();
     }
 
+    /**
+     * 新增岗位
+     * @return
+     */
+    @PostMapping("/save")
+    public boolean save(@RequestBody SysPost sysPost){
+        return sysPostService.save(sysPost);
+    }
 }
