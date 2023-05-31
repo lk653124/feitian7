@@ -2,6 +2,9 @@ package cn.bdqn.feitian.dao;
 
 import cn.bdqn.feitian.domain.po.SysPost;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Select;
+
+import java.util.List;
 
 /**
 * @author M
@@ -10,7 +13,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @Entity domain.domain.SysPost
 */
 public interface SysPostMapper extends BaseMapper<SysPost> {
-
+    public List<SysPost> getAll();
 }
 
 

@@ -4,8 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.bdqn.feitian.dao.SysPostMapper">
 
+
     <resultMap id="BaseResultMap" type="cn.bdqn.feitian.domain.po.SysPost">
-            <id property="postId" column="post_id" jdbcType="BIGINT"/>
+            <id property="postId" column="post_id"/>
             <result property="postCode" column="post_code" jdbcType="VARCHAR"/>
             <result property="postName" column="post_name" jdbcType="VARCHAR"/>
             <result property="postSort" column="post_sort" jdbcType="INTEGER"/>
@@ -16,11 +17,7 @@
             <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
             <result property="remark" column="remark" jdbcType="VARCHAR"/>
     </resultMap>
-
-    <sql id="Base_Column_List">
-        post_id,post_code,post_name,
-        post_sort,status,create_by,
-        create_time,update_by,update_time,
-        remark
-    </sql>
+        <select id="getAll" resultMap="BaseResultMap">
+                select * from sys_post
+        </select>
 </mapper>
