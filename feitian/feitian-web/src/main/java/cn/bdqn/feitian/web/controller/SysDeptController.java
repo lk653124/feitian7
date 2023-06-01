@@ -18,6 +18,7 @@ public class SysDeptController {
     @PostMapping("")
     @ResponseBody
     public int dept(SysDept dept){
+        System.out.println("111");
         return service.selectDeptCount(dept);
     }
 }
