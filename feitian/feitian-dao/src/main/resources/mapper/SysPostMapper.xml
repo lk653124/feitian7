@@ -17,8 +17,4 @@
             <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
             <result property="remark" column="remark" jdbcType="VARCHAR"/>
     </resultMap>
-        <select id="getAll"  resultMap="BaseResultMap">
-                select * from sys_post
-        </select>
-
 </mapper>

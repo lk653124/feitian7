@@ -13,7 +13,6 @@ import java.util.List;
 * @Entity domain.domain.SysPost
 */
 public interface SysPostMapper extends BaseMapper<SysPost> {
-    public List<SysPost> getAll();
 }
 
 

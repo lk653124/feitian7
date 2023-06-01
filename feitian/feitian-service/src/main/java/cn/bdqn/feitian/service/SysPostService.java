@@ -11,5 +11,4 @@ import java.util.List;
 * @createDate 2023-05-31 15:57:33
 */
 public interface SysPostService extends IService<SysPost> {
-    public List<SysPost> getAll();
 }

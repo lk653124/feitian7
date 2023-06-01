@@ -16,14 +16,6 @@ import java.util.List;
 */
 @Service
 public class SysPostServiceImpl extends ServiceImpl<SysPostMapper, SysPost> implements SysPostService {
-
-    @Resource
-    private SysPostMapper postMapper;
-
-    @Override
-    public List<SysPost> getAll() {
-        return postMapper.getAll();
-    }
 }
 
 
