@@ -3,6 +3,7 @@ package cn.bdqn.feitian.web.controller;
 import cn.bdqn.feitian.domain.po.SysPost;
 import cn.bdqn.feitian.service.SysPostService;
 import cn.bdqn.feitian.web.config.Result;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -20,8 +21,11 @@ public class SysPostController {
     private SysPostService sysPostService;
 
     @GetMapping("")
-    public Result getAll(){
-       return Result.success(sysPostService.getAll());
+    public Result getAll(
+            @RequestParam(value = "pageNum",defaultValue = "1",required = false) Long pageNum,
+            @RequestParam(value = "pageSize",defaultValue = "10",required = false) Long pageSize
+    ){
+       return Result.success(sysPostService.page(new Page<SysPost>(pageNum,pageSize)));
     }
 
     /**
