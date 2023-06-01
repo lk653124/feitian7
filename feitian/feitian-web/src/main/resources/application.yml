@@ -46,3 +46,9 @@ mybatis-plus:
     # sql??
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+  #pagehelper
+  pagehelper.helper-dialect=mysql
+  pagehelper.reasonable=true
+  pagehelper.support-methods-arguments=true
+  pagehelper.params=count=countSql
+
